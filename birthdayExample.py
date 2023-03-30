@@ -17,5 +17,8 @@ for elem in birthdayList:
     birthday = elem["birthday"]
     birthdayDictionary[name] = birthday
 
-name = input("Enter a name:")
-print("name = " + name)
+name = input("Enter your name? ")
+if name in birthdayDictionary:
+    print("Your birthday is " + birthdayDictionary[name])
+else:
+    print("Sorry, your birthday is unknown.")
