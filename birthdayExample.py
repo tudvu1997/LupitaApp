@@ -1,6 +1,6 @@
 import json
 
-pathToFile = "C:/Users/jerom/Documents/GitHub/class-python/birthday/birthday.json"
+pathToFile = "C:/Users/16692/Desktop/New folder (5)/birthday.json"
 
 try:
     jsonFile = open(pathToFile, 'r')
